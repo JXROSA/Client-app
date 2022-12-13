@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="python_page" href="/weed.py" />
+
+    <title>Weed Feed</title>
+  </head>
+  <body>
+    <header>
+      <h1><center>Weed Feed</center></h1>
+      <p><center>The place to soothe your feelings</center></p>
+    </header>
+
+    <div class="slidecontainer">
+      <h3>Anxious</h3>
+      <input
+        type="range"
+        min="0"
+        max="10"
+        value="1"
+        class="slider"
+        id="myRange"
+      />
+      <h3>Pain</h3>
+      <input
+        type="range"
+        min="0"
+        max="10"
+        value="1"
+        class="slider"
+        id="myRange"
+      />
+      <h3>Restlessness</h3>
+      <input
+        type="range"
+        min="0"
+        max="10"
+        value="1"
+        class="slider"
+        id="myRange"
+      />
+    </div>
+
+    <form action="">
+      <h4>Weed Info</h4>
+      <label for="input_name"> Input Strain Name </label>
+      <input type="text" id="input_name" name="input strain name" /> <br />
+      <label for="producer"> Input Producer Name </label>
+      <input type="text" id="producer" name="Grower" /> <br />
+      <label for="input_thc"> Input THC %</label>
+      <input type="text" id="input_thc" name="input THC %" /> <br />
+      <label for="terpene_levelM">Input Mycrene %</label>
+      <input type="text" id="terpene_levelM" name="input Mycrene %" /><br />
+      <label for="terpene_levelL"> Input limonene %</label>
+      <input type="text" id="terpene_levelL" name="input Limonene %" /> <br />
+      <label for="terpene_levelP"> Input Pinene %</label>
+      <input type="text" id="terpene_levelP" name="input Pinene %" /> <br />
+      <button>Save</button>
+    </form>
+
+    <button class="checker" onclick="">Submit</button>
+    <script src="javascript.js"></script>
+  </body>
+</html>

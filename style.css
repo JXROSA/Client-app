@@ -1,0 +1,15 @@
+header{
+ background-color: green;
+ color: black;
+ border-radius: 10px;
+ border: 1px solid black;
+ margin: 10px;
+}
+
+form{
+ border: solid 1px black;
+}
+
+slidecontainer {
+ border: solid 1px black;
+}
